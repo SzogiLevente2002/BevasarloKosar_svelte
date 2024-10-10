@@ -16,7 +16,7 @@
     <tr>
       <td>{item.nev}</td>
       <td>{item.ar} Ft</td>
-      <td> <input type="number">Db</td>
+      <td> <input type="number" min="0">Db</td>
     </tr>
     {/each}
   </table>
